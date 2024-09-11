@@ -541,6 +541,13 @@ body {
   .companies img {
     max-width: 3rem;
   }
+
+    .text-heading {
+    display: block;
+    overflow: visible;
+    line-height: 3;
+    margin-block: -1rem;
+  }
 }
 
 .companies img:hover {

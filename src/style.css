@@ -532,7 +532,7 @@ body {
 
 @media (max-width: 800px) {
   .companies {
-    width: 95%;
+    width: 100%;
   }
   .companies img {
     max-width: 4rem;
@@ -549,6 +549,10 @@ body {
     overflow: visible;
     line-height: 3;
     margin-block: -1rem;
+  }
+
+  .padding-block-700 {
+    padding-block: var(--size-500);
   }
 }
 

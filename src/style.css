@@ -540,8 +540,8 @@ body {
 }
 
 @media (max-width: 527px) {
-  .companies img {
-    max-width: 3rem;
+  .companies {
+    width: 80%;
   }
 
     .text-heading {

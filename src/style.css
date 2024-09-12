@@ -918,3 +918,37 @@ body {
   width: var(--size-600);
   aspect-ratio: 1;
 }
+
+
+
+/* about */
+
+#aboutHeading{
+  padding-block: 2rem;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: -2rem;
+  gap: 3rem;
+  direction: rtl; /* تنظیم راست‌به‌چپ */
+}
+
+.about-column {
+  align-self: baseline;
+  text-align: justify;
+  direction: rtl;
+}
+
+
+@media (max-width: 768px) {
+  .about-container {
+    margin-inline: auto;
+    max-width: 80%;
+    grid-template-columns: 1fr;
+    margin-top: 0;
+    gap: 1.5rem;
+  }
+}
+

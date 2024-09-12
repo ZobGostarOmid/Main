@@ -1050,3 +1050,47 @@ body {
 
 }
 
+
+
+/* contact */
+
+#aboutContact {
+  padding-block: 1rem 1.5rem;
+}
+
+.product-image iframe {
+  width: 100%;
+  border: 1px solid white;
+  aspect-ratio: 1;
+  height: auto;
+  border-radius: 1rem;
+  filter: invert(92%) contrast(93%);
+}
+
+.contact-title {
+  font-size: var(--fs-700);
+}
+
+.contact-info {
+  gap: 1rem !important;
+  display: flex !important;
+  flex-direction: column;
+}
+
+.contact-info p{
+  padding: 0 !important;
+}
+
+
+
+@media (max-width: 768px) {
+
+  .product-image iframe {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem !important;
+    margin-bottom: 2rem;
+  }
+
+
+}

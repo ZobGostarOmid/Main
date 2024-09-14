@@ -887,6 +887,9 @@ body {
   .primary-footer-wrapper > * {
     margin-inline: auto;
   }
+  .primary-footer-nav p {
+    padding-inline: 2rem;
+  }
 }
 
 /* footer navigation */

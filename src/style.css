@@ -554,6 +554,10 @@ body {
   .padding-block-700 {
     padding-block: var(--size-500);
   }
+
+    #product-img { 
+    display: none !important;
+  }
 }
 
 .companies img:hover {

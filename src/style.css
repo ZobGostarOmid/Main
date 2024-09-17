@@ -1104,5 +1104,5 @@ body {
 
 
 .company-name {
-  color: transparent
+  color: transparent !important;
 }
